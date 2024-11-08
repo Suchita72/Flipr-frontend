@@ -1,0 +1,120 @@
+/* Featured post styling */
+ .featured-post {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+  } 
+  
+
+ 
+  .featured-content {
+    max-width: 50%;
+  }
+  
+  .featured-image {
+    max-width: 45%;
+    border-radius: 8px;
+    object-fit: cover;
+    /* Optional styling for image alignment */
+    align-self: flex-start; /* aligns image to the top of the div */
+  }
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .blog-section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  .blog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .subscribe-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Featured post styling */
+  /* .featured-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+  }
+   */
+  /* .featured-content {
+    max-width: 50%;
+  }
+   */
+  .post-tag {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .post-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .post-meta {
+    color: #777;
+    font-size: 0.875rem;
+    margin-bottom: 20px;
+  }
+  
+  .author-name {
+    color: #3a6cf0;
+    font-weight: bold;
+  }
+  
+  .post-excerpt {
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .read-more-button {
+    background-color: #ffc107;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* .featured-image {
+    max-width: 45%;
+    border-radius: 8px;
+  }
+     */

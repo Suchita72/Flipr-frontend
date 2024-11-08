@@ -1,0 +1,105 @@
+.about-us {
+    font-family: 'Inter', sans-serif;
+    color: #232536;
+}
+
+.intro {
+    text-align: center;
+    padding: 40px;
+}
+
+.intro h1 {
+    font-family: 'Sen', sans-serif;
+    color: #592EA9;
+}
+
+.statistics {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F4F0F8;
+    padding: 20px;
+    text-align: center;
+    background-image: url('../closeup.svg');
+    background-position: center -350px; 
+    background-repeat: no-repeat;     
+    background-size: cover;           
+    overflow: hidden;   
+    height:250px;               
+
+}
+
+.stat h2 {
+    color: black;
+    font-size: 2rem;
+}
+
+.core-values, .team, .authors, .cta {
+    padding: 20px;
+    text-align: center;
+}
+
+.value, .story {
+    display: inline-block;
+    width: 45%;
+    margin: 20px;
+}
+
+.team img, .story img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.authors {
+    background-color: #FBF6EA;
+    padding: 30px;
+}
+
+.author-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.author {
+    margin: 15px;
+    text-align: center;
+}
+
+.author img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.author img:hover {
+    transform: scale(1.1);
+}
+
+.cta button {
+    padding: 10px 20px;
+    background-color: #FFD050;
+    border: none;
+    color: #232536;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cta button:hover {
+    background-color: #E0C040;
+}
+.team{
+    display: flex;
+}
+.ig{
+    height:300px;
+    width:300px;
+}
+.hd{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    background-color: #FFD050;
+    height:100px;
+}

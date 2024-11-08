@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Sen:wght@700&display=swap');
+@import url('https://fonts.google.com/specimen/Inter?query=Inter');
+
+
+.author-page {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .author-content {
+    display: flex;
+    max-width: 1200px;
+    width:100%;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .author-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbf6ea;
+  }
+  
+  .author-image {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .author-info {
+    flex: 2;
+    padding: 20px;
+    color: #232536;
+  }
+  
+  .author-name {
+    font-family: 'Sen', sans-serif;
+    color:black;
+  
+    margin-bottom: 10px;
+  }
+  
+  .author-details {
+    font-size: 1.1em;
+    font-family: 'Inter',inter-serif;
+    color: #4c4c4c;
+  }
+  .author-line{
+    display: flex;
+
+  }
+  .yellow-line{
+    border:solid yellow;
+    width:540px;
+    background-color: yellow;
+  }
+  .blue-line{
+border:solid blueviolet;
+width:140px;
+background-color: blueviolet;
+  }
+ 

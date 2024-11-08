@@ -1,0 +1,44 @@
+.featured-post {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border: 1px solid #ddd;
+    margin-bottom: 16px;
+  }
+  
+  .featured-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .post-content {
+    margin-top: 16px;
+  }
+  
+  .author-date {
+    font-size: 0.875rem;
+    color: #777;
+  }
+  
+  .author-name {
+    color: #3a6cf0;
+  }
+  
+  .post-title {
+    font-size: 1.5rem;
+    margin: 8px 0;
+  }
+  
+  .post-description {
+    color: #555;
+  }
+  
+  .read-more {
+    margin-top: 16px;
+    background-color: #f0c040;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }
+  

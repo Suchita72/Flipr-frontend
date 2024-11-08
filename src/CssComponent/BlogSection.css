@@ -1,0 +1,14 @@
+.blog-section {
+    display: flex;
+    gap: 32px;
+    padding: 16px;
+  }
+  
+  .featured-post {
+    flex: 1.5;
+  }
+  
+  .post-list {
+    flex: 1;
+  }
+  
